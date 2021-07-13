@@ -1,0 +1,48 @@
+recessione	PIL	3.5941032739291146
+Cesare	Giulio Cesare	3.9999999999999982
+paziente	sessione	1.9259693342443394
+comportamentismo	terapia	2.5161766874260962
+imperatore	costituzione	2.5422624171001966
+matematico	spettacolo	2.216484727241888
+entropia	informazione	2.822421859299453
+acqua di rose	olio di rosa	3.0535471651423554
+agrume	pompelmo	3.9156692330025984
+Regina Vittoria	Inghilterra	2.5005924054896345
+Giochi Olimpici	spirito	2.3673579349692955
+vescovo	musulmano	2.4433795548158956
+uomo	sospetto	3.999999999999999
+meteorite	Terra	3.5337393631466423
+simbolo	segno	3.999999999999999
+antropologia	New York	3.0463526787122377
+tramonto	tavolo	1.698783149875614
+cittadina	cittÃ	4.000000000000002
+giacca	acqua minerale	1.6869841059453068
+natura	flora	2.9551121627334043
+subroutine	compilatore	3.325768492597839
+Hamadan	Roma	2.3761840762212776
+ombrello	stufa	1.8693998337580433
+onore	stima	3.0757796070458117
+insegna	dignitÃ	2.3941003864089194
+joystick	radar	2.357994404143578
+basmati	riso jasmine	3.7604257772148757
+medaglia	scarpe da ginnastica	1.490155287460525
+legge	piscina	1.7470695271671959
+sorgente	scatola	2.107091648810083
+teatro	batteria	3.137580542902084
+flora	web browser	2.122198273865945
+camicia	cardigan	3.8608828489315403
+poema	ritmo	3.149992649954121
+profeta	prete	2.933301480463818
+Oscar	stadio	2.5059358141420733
+backgammon	Go	3.7579214818028004
+farfalla	rosa	2.653603880012234
+recinto	salto	2.6021857779196327
+nichilismo	film	2.334194031253484
+asteroide	stella	3.286751920534342
+sommossa	disegno	1.761935063384253
+intimo	corpo	1.7251538473406876
+Boeing	aereo	3.5940018801823097
+cameo	interpretazione	2.476938158553924
+arancia	agrume	3.9156692330025984
+ghiacciaio	riscaldamento globale	2.0475833322527106
+galleria	percorso	3.089070478058052

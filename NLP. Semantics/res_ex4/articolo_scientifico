@@ -1,0 +1,99 @@
+In school we are taught that paragraphs are to be written as coherent, self-contained
+units, complete with topic sentence and summary sentence. In real-world text, these
+expectations are often not met. Paragraph markings are not always used to indicate
+a change in discussion, but instead can sometimes be invoked just to break up the
+physical appearance of the text in order to aid reading (Stark 1988). A conspicuous
+example of this practice can be found in the layout of the columns of text in many
+newspapers (Longacre 1979). Brown and Yule (1983, 95-96) note that text genre has
+a strong influence on the role of paragraph markings, and that markings differ for
+different languages. Hinds (1979, 137) also suggests that different discourse types have
+different organizing principles.
+Although most discourse segmentation work is done at a finer granularity than
+that suggested here, multi-paragraph segmentation has many potential applications.
+TextTiling is geared towards expository text; that is, text that explicitly explains or
+teaches, as opposed to, say, literary texts, since expository text is better suited to the
+main target applications of information retrieval and summarization. More specifically, TextTiling is meant to apply to expository text that is not heavily stylized or
+structured, and for simplicity does not make use of headings or other kinds of orthographic information. A typical example is a 5-page science magazine article or a
+20-page environmental impact report.
+This section concentrates on two application areas for which the need for multiparagraph units has been recognized: hypertext display and information retrieval.
+There are also potential applications in some other areas, such as text summarization.
+Some summarization algorithms extract sentences directly from the text. These methods make use of information about the relative positions of the sentences in the text
+(Kupiec, Pedersen, and Chen 1995; Chen and Withgott 1992). However, these methods
+do not use subtopic structure to guide their choices, focusing more on the beginning
+and ending of the document and on position within paragraphs. Paice (1990) recognizes the need for taking topical structure into account but does not suggest a method
+for determining such structure.
+Another area that models the multi-paragraph unit is automated text generation.
+Mooney, Carberry, and McCoy (1990) present a method centered around the notion of
+Basic Blocks: multi-paragraph units of text, each of which consists of (1) an organizational focus such as a person or a location, and (2) a set of concepts related to that
+focus. Their scheme emphasizes the importance of organizing the high-level structure
+of a text according to its topical content, and afterwards incorporating the necessary
+related information, as reflected in discourse cues, in a finer-grained pass
+
+Research in hypertext and text display has produced hypotheses about how textual
+information should be displayed to users. One study of an on-line documentation
+system (Girill 1991) compares display of fine-grained portions of text (i.e., sentences),
+full texts, and intermediate-sized units. Girill finds that divisions at the fine-grained
+level are less efficient to manage and less effective in delivering useful answers than
+intermediate-sized units of text.
+Girill does not make a commitment about exactly how large the desired text unit
+should be, but talks about "passages" and describes passages in terms of the communicative goals they accomplish (e.g., a problem statement, an illustrative example,
+an enumerated list). The implication is that the proper unit is the one that groups
+together the information that performs some communicative function; in most cases,
+this unit will range from one to several paragraphs. (Girill also finds that using document boundaries is more useful than ignoring document boundaries, as is done in
+some hypertext systems, and that premarked sectional information, if available and
+not too long, is an appropriate unit for display.)
+Tombaugh, Lickorish, and Wright (1987) explore issues relating to ease of readability of long texts on CRT screens. Their study explores the usefulness of multiple
+windows for organizing the contents of long texts, hypothesizing that providing readers with spatial cues about the location of portions of previously read texts will aid
+in their recall of the information and their ability to quickly locate information that
+has already been read once. In the experiment, the text is divided using premarked
+sectional information, and one section is placed in each window. They conclude that
+segmenting the text by means of multiple windows can be very helpful if readers are
+familiar with the mechanisms supplied for manipulating the display.
+35
+Computational Linguistics Volume 23, Number 1
+Converting text to hypertext, in what is called post hoc authoring (Marchionini,
+Liebscher, and Lin 1991), requires division of the original text into meaningful units (a
+task noted by these authors to be a challenging one) as well as meaningful interconnection of the units. Automated multi-paragraph segmentation should help with the
+first step of this process, and is more important than ever now that pre-existing documents are being put up for display on the World Wide Web. Salton et al. (1996) have
+recognized the need for multi-paragraph units in the automatic creation of hypertext
+links as well as theme generation (this work is discussed in Section 5).
+
+
+Another recent analytic technique that makes use of lexical information is described in
+Youmans (1991), which introduces a variant on type/token curves, called the Vocabulary-Management Profile. Type/token curves are simply plots of the number of unique
+words against the number of words in a text, starting with the first word and proceeding through the last. Youmans modifies this algorithm to keep track of how many
+first-time uses of words occur at the midpoint of every 35-word window in a text.
+Youmans' goal is to study the distribution of vocabulary in discourse rather than to
+segment it along topical lines, but upon examining many English narratives, essays,
+and transcripts he notices that sharp upturns after deep valleys in the curve "correlate
+closely to constituent boundaries and information flow" (p. 788).
+Youmans' analysis of the graphs is descriptive in nature, mainly attempting to
+identify the cause of each peak or valley in terms of a principle of narrative structure,
+and is done at a very fined-grained level. He discusses one text in detail, describing changes at the single-word level, and focusing on within-paragraph and withinsentence events. Examples of events are changes in characters, occurrences of dialogue,
+and descriptions of places, each of which ranges in length from one clause to a few sentences. He also finds that paragraph boundaries are not always predicted--sometimes
+the onset of a new paragraph is signaled by the occurrence of a valley in the graph,
+but often paragraph onset is not signaled until one or two sentences beyond onset. 6
+One of Youmans' main foci is an attempt to cast the resulting peaks in terms of
+co-ordination and subordination relations. However, in the discussion he notes that
+this does not seem like an appropriate use of the graphs. No systematic evaluation of
+the algorithm is presented, nor is there any discussion of how one might automatically
+determine the significance of the peaks and valleys.
+Nomoto and Nitta (1994) attempt to use Youmans' algorithm for distinguishing
+entire articles from one another when they are concatenated into a single file. They find
+that it "fails to detect any significant pattern in the corpus" (p. 1148). I recast Youmans'
+algorithm into the TextTiling framework, renaming it the vocabulary introduction
+method. Figure 3(b) illustrates. The text is analyzed, and the positions at which terms
+are first introduced are recorded (shown in black circles in the figure). A moving
+window is used again, as in the blocks algorithm, and this window corresponds to
+Youmans' interval. The number of new terms that occur on either side of the midpoint,
+or the sentence gap of interest, are added together and plotted against sentence gap
+number.
+This approach differs from that of Youmans (1991) and Nomoto and Nitta (1994) in
+two main ways. First, Nomoto and Nitta (1994) use too large an interval--300 words--
+because this is approximately the average size needed for their implementation of the
+blocks version of TextTiling. Large paragraph-sized intervals for measuring introduction of new words seem unlikely to be useful since every paragraph of a given length
+should have approximately the same number of new words, although those at the beginning of a subtopic segment will probably have slightly more. Instead, I use interval
+lengths of size 40, closer to Youmans' suggestion of 35.
+Second, the granularity at which Youmans takes measurements is too fine, since
+he plots the score at every word. Sampling this frequently yields a very spiky plot
+from which it is quite difficult to draw conclusions at a paragraph-sized granularity. I

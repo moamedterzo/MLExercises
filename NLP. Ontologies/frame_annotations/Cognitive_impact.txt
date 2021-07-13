@@ -1,0 +1,1 @@
+{"name": {"impact": "impact.n.02"}, "LUs": {"strike": "affect.v.05", "hit": "hit.v.05"}, "FEs": {"Phenomenon": "phenomenon.n.01", "Experiencer": null, "Judgment": "judgment.n.04", "Circumstances": "circumstance.n.01", "Manner": "manner.n.03", "Frequency": "frequency.n.01"}}

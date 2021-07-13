@@ -1,0 +1,1 @@
+{"name": {"reciprocality": "reciprocality.n.01"}, "LUs": {}, "FEs": {"Protagonist_1": null, "Protagonist_2": null}}

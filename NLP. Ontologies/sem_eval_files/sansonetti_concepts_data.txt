@@ -1,0 +1,48 @@
+recessione	PIL	bn:00066516n	bn:00037570n
+Cesare	Giulio Cesare	bn:00014550n	bn:00014550n
+paziente	sessione	bn:00051919n	bn:00076588n
+comportamentismo	terapia	bn:00009659n	bn:00076843n
+imperatore	costituzione	bn:00030601n	bn:02436267n
+matematico	spettacolo	bn:00053834n	bn:00027670n
+entropia	informazione	bn:17267027n	bn:00046705n
+acqua di rose	olio di rosa	bn:00068288n	bn:00007010n
+agrume	pompelmo	bn:00019301n	bn:00041408n
+Regina Vittoria	Inghilterra	bn:00065652n	bn:00013173n
+Giochi Olimpici	spirito	bn:00058910n	bn:00073430n
+vescovo	musulmano	bn:00010714n	bn:00055975n
+uomo	sospetto	bn:00053099n	bn:00075447n
+meteorite	Terra	bn:03482119n	bn:00029424n
+simbolo	segno	bn:00075652n	bn:00075652n
+antropologia	New York	bn:02529040n	bn:02530635n
+tramonto	tavolo	bn:00023747n	bn:00075814n
+cittadina	città	bn:00077773n	bn:00077773n
+giacca	acqua minerale	bn:00041211n	bn:00055131n
+natura	flora	bn:00081220n	bn:00012321n
+subroutine	compilatore	bn:14095894n	bn:00021344n
+Hamadan	Roma	bn:03266645n	bn:00015556n
+ombrello	stufa	bn:00078920n	bn:00074479n
+onore	stima	bn:00044653n	bn:00031654n
+insegna	dignità	bn:00046907n	bn:00027105n
+joystick	radar	bn:00022301n	bn:00054808n
+basmati	riso jasmine	bn:00567353n	bn:02666084n
+medaglia	scarpe da ginnastica	bn:00025766n	bn:00042319n
+legge	piscina	bn:00050250n	bn:00063165n
+sorgente	scatola	bn:00036082n	bn:00012526n
+teatro	batteria	bn:00045002n	bn:15260251n
+flora	web browser	bn:16815206n	bn:00013447n
+camicia	cardigan	bn:00071142n	bn:00015958n
+poema	ritmo		bn:00702170n	bn:00063201n
+profeta	prete	bn:08898778n	bn:00024459n
+Oscar	stadio	bn:05189641n	bn:00005532n
+backgammon	Go	bn:00007779n	bn:00040833n
+farfalla	rosa	bn:00014271n	bn:00068284n
+recinto	salto		bn:00034048n	bn:03388714n
+nichilismo	film	bn:01916906n	bn:00033878n
+asteroide	stella	bn:03482119n	bn:00073964n
+sommossa	disegno	bn:00047002n	bn:00026536n
+intimo	corpo	bn:00047249n	bn:00034597n
+Boeing	aereo	bn:01156257n	bn:16750414n
+cameo	interpretazione	bn:02119437n	bn:00061560n
+arancia	agrume	bn:00059249n	bn:00019301n
+ghiacciaio	riscaldamento globale	bn:00040579n	bn:00040681n
+galleria	percorso	bn:00078606n	bn:00067975n

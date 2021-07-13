@@ -1,0 +1,7 @@
+import nltk
+nltk.download("semcor")
+nltk.download('wordnet')
+nltk.download('framenet_v17')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('stopwords')
+nltk.download('punkt')
